@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+sentence-transformers
+faiss-cpu
+numpy
+spacy
+openai
+google-cloud-aiplatform
+google-auth
+protobuf>=4.21.0
