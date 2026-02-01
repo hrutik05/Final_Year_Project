@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="AI-powered legal assistant for Indian laws. Get instant legal advice based on Indian Constitution, IPC, CrPC, and other legal frameworks." />
+    <meta name="keywords" content="AI legal assistant, Indian law, legal advice, constitutional law, criminal law, civil law, legal chatbot, multilingual legal support, Hindi legal advice, Bengali legal help" />
+    <title>LegalAI - AI Legal Assistant for Indian Laws</title>
+    
+    <!-- Allow Google Translate -->
+    <meta name="google" content="translate" />
+    
+    <!-- Define Google Translate callback before script loads -->
+    <script>
+      function googleTranslateElementInit() {
+        // This function will be called by the Google Translate script
+        // The actual initialization is handled in LanguageSelector.tsx
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+  </body>
+</html>
